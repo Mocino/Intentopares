@@ -1,0 +1,25 @@
+@api = http://localhost:3000/api/products
+
+@api1 = http://localhost:3000/api/tipocliente
+@api1 = http://localhost:3000/api/tipomedidor
+@api1 = http://localhost:3000/api/cliente
+@api1 = http://localhost:3000/api/empleado
+@api1 = http://localhost:3000/api/observacion
+@api1 = http://localhost:3000/api/factura
+
+
+{{api}}
+
+//enviamos el post
+###
+POST {{api}}
+Content-Type: application/json
+
+{   
+     "name" : "Samuel",
+     "description" : "Nombre pa"
+}
+
+//request Get
+###
+GET {{api}}/
